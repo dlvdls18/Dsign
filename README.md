@@ -19,4 +19,10 @@ HTML CSS Design with Classes and Attributes
 
 Call the function `Dsign` to update the style of classes and attributes. (called once by default)
 
-## Difference between Classes and At
+```js
+Dsign();
+// undefined
+```
+
+## Difference between Classes and Attributes
+
