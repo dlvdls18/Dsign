@@ -30,7 +30,13 @@ Dsign();
 
 It is recommended to use `classes` with one word value (in short, no space and special characters).
 
-Using `classes` with dashes will not work since it's 
+Using `classes` with dashes will not work since it's a special character.
+
+```html
+```
+
+
+Example of usage for `classes`:
 
 ```html
 <p class="color-orange background-color-black padding-8px font-family-courier"
