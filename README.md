@@ -32,12 +32,27 @@ It is recommended to use `classes` with one word value (in short, no space and s
 
 Using `classes` with dashes will not work since it's a special character.
 
-
-Example of usage for `classes`:
-
 ```html
+<!-- Format -->
+<!-- <style>-<value> -->
+<!-- color-orange -->
+
 <!-- Bad -->
-<p class="back">Hello</p>
+<p class="transition-background-image 0.2s ease-in-out, color 1s ease-out background-image-linear-gradient(to bottom, red, blue) font-family-var(--my-font)">Hello</p>
 <!-- Good -->
 <p class="color-orange background-color-black padding-8px font-family-courier">Hello</p>
 ```
+
+***
+
+
+`Attributes` are very useful for longer and special character supported values.
+
+```html
+<!-- Format -->
+<!-- <style>="<value>" -->
+<!-- color="orange" -->
+
+<p color="orange" background-color="black" padding="8px" font-family="courier">Hello</p>
+```
+
