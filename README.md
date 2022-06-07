@@ -12,7 +12,7 @@ HTML CSS Design with Classes and Attributes
 # Installation
 
 ```html
-<script src="https://cdn.jsdelivr.com/gh/dlvdls18/Dsign@main/src/dsign.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dlvdls18/Dsign@main/src/dsign.js"></script>
 ```
 
 # Usage
