@@ -28,7 +28,8 @@ Dsign();
 
 `Classes` can use for neat and clean style. however, it doesn't support special characters such as space, hashtags and more.
 
-It is recommended to use `class`
+It is recommended to use `classes` with one word value (in short, no space and special characters).
 
 ```html
+<p 
 ```
