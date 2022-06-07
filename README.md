@@ -31,5 +31,5 @@ Dsign();
 It is recommended to use `classes` with one word value (in short, no space and special characters).
 
 ```html
-<p 
+<p class="color-orange background-color-black padding-8px font-family-"
 ```
