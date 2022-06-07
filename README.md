@@ -14,3 +14,7 @@ HTML CSS Design with Classes and Attributes
 ```html
 <script src="https://cdn.jsdelivr.com/gh/dlvdls18/Dsign@main/src/dsign.js"></script>
 ```
+
+# Usage
+
+Call the function `Dsign` to update the style of classes and attributes
