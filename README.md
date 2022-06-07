@@ -32,14 +32,12 @@ It is recommended to use `classes` with one word value (in short, no space and s
 
 Using `classes` with dashes will not work since it's a special character.
 
-```html
-<!-- Bad -->
-<p class="color-orange background-color-black padding-8px font-family-">Hello</p>
-```
-
 
 Example of usage for `classes`:
 
 ```html
+<!-- Bad -->
+<p class="color-or">Hello</p>
+<!-- Good -->
 <p class="color-orange background-color-black padding-8px font-family-courier">Hello</p>
 ```
