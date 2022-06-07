@@ -21,10 +21,20 @@ Call the function `Dsign` to update the style of classes and attributes. (called
 
 ```js
 Dsign();
-// undefined
 ```
 
-## Difference between Classes and Attributes
+```html
+<p color="red" id="myEl">Hello</p>
+<script>
+myEl.setAttribute("color", "orange");
+// Color doesn't change
+
+Dsign();
+// Color changed
+</script>
+```
+
+## Applying Styles
 
 `Classes` can use for neat and clean style. however, it doesn't support special characters such as space, hashtags and more.
 
@@ -46,7 +56,7 @@ Using `classes` with dashes will not work since it's a special character.
 ***
 
 
-`Attributes` are very useful for longer and special character supported values.
+`Attributes` are very useful for longer values with special characters.
 
 ```html
 <!-- Format -->
