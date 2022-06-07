@@ -37,7 +37,7 @@ Example of usage for `classes`:
 
 ```html
 <!-- Bad -->
-<p class="color-or">Hello</p>
+<p class="back">Hello</p>
 <!-- Good -->
 <p class="color-orange background-color-black padding-8px font-family-courier">Hello</p>
 ```
