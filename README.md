@@ -26,4 +26,9 @@ Dsign();
 
 ## Difference between Classes and Attributes
 
-`Classes` can use for neat and clean style. however, it doesn't support special ch
+`Classes` can use for neat and clean style. however, it doesn't support special characters such as space, hashtags and more.
+
+It is recommended to use `class`
+
+```html
+```
