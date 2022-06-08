@@ -68,3 +68,11 @@ color="red"
 font-family="sans-serif"
 background-color="teal"
 ```
+
+
+`Classes`
+
+```
+<style (camel case)>-<value>
+color-
+```
