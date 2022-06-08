@@ -9,6 +9,7 @@
 function Dsign() {
   for(var style in document.body.style) {
     var sr = style.replace(/(A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z)/g, "-$1").toLowerCase();
+    console.log(sr, style);
     document.querySelectorAll("*").forEach(function(el) {
       (el.getAttribute("class") || "").split(" ").forEach(function(c) {
         if(c.startsWith(sr + "-")) {
