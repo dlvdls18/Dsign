@@ -62,5 +62,7 @@ Using `classes` with dashes will not work since it's a special character.
 
 `Attributes`
 
-```html
+```
+<!--<style (kebab case)>="<value>"
+
 ```
