@@ -63,6 +63,8 @@ Using `classes` with dashes will not work since it's a special character.
 `Attributes`
 
 ```
-<!--<style (kebab case)>="<value>"
-
+<style (kebab case)>="<value>"
+color="red"
+font-family="sans-serif"
+background-color="teal"
 ```
