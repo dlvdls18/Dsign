@@ -19,7 +19,7 @@ function Dsign() {
     });
     document.querySelectorAll("[" + sr + "]").forEach(function(el) {
       el.style[style] = el.getAttribute(sr);
-    });
+    }); 
   }
 }
 
