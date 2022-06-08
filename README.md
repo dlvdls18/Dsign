@@ -3,7 +3,7 @@ HTML CSS Design with Classes and Attributes
 
 ```html
 <!-- Classes -->
-<p class="color-red font-size-2rem cursor-pointer">Hello</p>
+<p class="color-red fontSize-2rem cursor-pointer">Hello</p>
 
 <!-- Attributes -->
 <p color="red" font-size="2rem" cursor="pointer">Hello</p>
@@ -48,9 +48,9 @@ Using `classes` with dashes will not work since it's a special character.
 <!-- color-orange -->
 
 <!-- Bad -->
-<p class="transition-background-image 0.2s ease-in-out, color 1s ease-out background-image-linear-gradient(to bottom, red, blue) font-family-var(--my-font)">Hello</p>
+<p class="transition-background-image 0.2s ease-in-out, color 1s ease-out backgroundImage-linear-gradient(to bottom, red, blue) fontFamily-var(--my-font)">Hello</p>
 <!-- Good -->
-<p class="color-orange background-color-black padding-8px font-family-courier">Hello</p>
+<p class="color-orange backgroundColor-black padding-8px fontFamily-courier">Hello</p>
 ```
 
 ***
