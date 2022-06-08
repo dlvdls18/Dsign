@@ -69,8 +69,10 @@ font-family="courier"
 background-color="teal"
 ```
 
+***
 
 `Classes`
+
 
 ```
 <style (camel case)>-<value>
