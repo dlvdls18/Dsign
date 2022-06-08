@@ -60,7 +60,14 @@ Using `classes` with dashes will not work since it's a special character.
 
 ## Format
 
-Every property is `ca`
+Every properties are `kebab cases`.
+
+```
+text-align-center
+font
+```
+
+***
 
 `Attributes`
 
