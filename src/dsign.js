@@ -8,14 +8,11 @@
 
 function Dsign() {
   for(var style in document.body.style) {
-    //console.log(style);
     var sr = style.replace(/(A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z)/g, "-$1").toLowerCase();
-    document.querySelectorAll(`[class^="${sr}-"]`).forEach(function(el) {
-      var c = el.getAttribute("class").split(" ");
-      c.forEach(function(ci) {
-        var r = new RegExp(sr + "-(.+)", "i");
-        if(ci.match(r)) {
-          var cv = ci.replace(r, "$1");
+    document.querySelectorAll(`*`).forEach(function(el) {
+      (el.getAttribute("class") || "").split(" ").forEach(function(c) {
+        if(c.startsWith(style + "-")) {
+          var cv = c.replace(style + "-", "");
           el.style[style] = cv;
         }
       });
