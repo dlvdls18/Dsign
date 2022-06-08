@@ -69,4 +69,8 @@ Using `classes` with dashes will not work since it's a special character.
 
 # Update
 
-I've detected a bug that makes the style wrong. While I'm testing, I saw that style name with 
+I've detected a bug that makes the style wrong.
+
+```html
+<p
+```
