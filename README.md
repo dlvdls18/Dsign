@@ -43,10 +43,6 @@ It is recommended to use `classes` with one word value (in short, no space and s
 Using `classes` with dashes will not work since it's a special character.
 
 ```html
-<!-- Format -->
-<!-- <style>-<value> -->
-<!-- color-orange -->
-
 <!-- Bad -->
 <p class="transition-background-image 0.2s ease-in-out, color 1s ease-out backgroundImage-linear-gradient(to bottom, red, blue) fontFamily-var(--my-font)">Hello</p>
 <!-- Good -->
@@ -59,9 +55,9 @@ Using `classes` with dashes will not work since it's a special character.
 `Attributes` are very useful for longer values with special characters.
 
 ```html
-<!-- Format -->
-<!-- <style>="<value>" -->
-<!-- color="orange" -->
-
 <p color="orange" background-color="black" padding="8px" font-family="courier">Hello</p>
 ```
+
+## Format
+
+```html``
