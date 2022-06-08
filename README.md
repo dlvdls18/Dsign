@@ -60,10 +60,12 @@ Using `classes` with dashes will not work since it's a special character.
 
 ## Format
 
+Every property is `ca`
+
 `Attributes`
 
 ```
-<style (kebab case)>="<value>"
+<style>="<value>"
 color="red"
 font-family="courier"
 background-color="teal"
@@ -75,8 +77,8 @@ background-color="teal"
 
 
 ```
-<style (camel case)>-<value>
+<style>-<value>
 color-red
-fontFamily-courier
-backgroundColor-teal
+font-family-courier
+background-color-teal
 ```
