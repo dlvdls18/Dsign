@@ -65,4 +65,3 @@ Using `classes` with dashes will not work since it's a special character.
 
 <p color="orange" background-color="black" padding="8px" font-family="courier">Hello</p>
 ```
-
