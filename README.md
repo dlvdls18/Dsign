@@ -66,22 +66,3 @@ Using `classes` with dashes will not work since it's a special character.
 <p color="orange" background-color="black" padding="8px" font-family="courier">Hello</p>
 ```
 
-
-# Update
-
-I've detected a bug that makes the style wrong.
-
-
-```html
-<p class="background-color-red">Hello</p>
-```
-
-I am expecting `background-color: red`.
-But the result is `background: color-red`.
-
-
-## Why there's a bug?
-
-`background` and `background-color` are defined style.
-
-My regex is `${toDash(style)}-`
