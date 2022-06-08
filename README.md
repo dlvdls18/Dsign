@@ -71,6 +71,10 @@ Using `classes` with dashes will not work since it's a special character.
 
 I've detected a bug that makes the style wrong.
 
+
 ```html
-<p
+<p class="background-color-red">Hello</p>
 ```
+
+I am expecting `background-color: red`.
+But the result
