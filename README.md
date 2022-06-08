@@ -77,4 +77,7 @@ I've detected a bug that makes the style wrong.
 ```
 
 I am expecting `background-color: red`.
-But the result
+But the result is `background: color-red`.
+
+
+## How 
