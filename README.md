@@ -82,4 +82,6 @@ But the result is `background: color-red`.
 
 ## Why there's a bug?
 
-Since `background` and `background-color` are defined style.
+`background` and `background-color` are defined style.
+
+My regex is `${toDash(style)}-`
