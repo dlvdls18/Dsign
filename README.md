@@ -64,7 +64,8 @@ Every properties are `kebab cases`.
 
 ```
 text-align-center
-font
+font-weight-400
+color-orange
 ```
 
 ***
