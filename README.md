@@ -65,7 +65,7 @@ Using `classes` with dashes will not work since it's a special character.
 ```
 <style (kebab case)>="<value>"
 color="red"
-font-family="sans-serif"
+font-family="courier"
 background-color="teal"
 ```
 
@@ -74,5 +74,7 @@ background-color="teal"
 
 ```
 <style (camel case)>-<value>
-color-
+color-red
+fontFamily-courier
+backgroundColor-teal
 ```
