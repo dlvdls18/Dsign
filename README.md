@@ -80,4 +80,6 @@ I am expecting `background-color: red`.
 But the result is `background: color-red`.
 
 
-## How 
+## Why there's a bug?
+
+Since `background` and `background-color` are defined style.
