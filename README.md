@@ -188,3 +188,7 @@ To ignore an attribute, add an argument `data-ignore`.
 Set the value to attributes you want to ignore (space seperated).
 
 **NOTE:** Argument `style` is ignored by default
+
+```html
+<dsign name="my-design" data-hello="Hello, " data-world="World!" color="white" text-align="center" margin="5px" background="red" border-radius="3px" data-ignore="data-hello data-world color"></dsign>
+```
