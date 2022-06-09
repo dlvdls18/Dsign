@@ -7,6 +7,8 @@
  */
 
 function Dsign() {
+  var m = document.body.innerHTML.matchAll(/<!---@\sdsign\s:\s(.+)\s:\s(.+)\s@--->/gm);
+  console.log(m);
   for(var style in document.body.style) {
     var sr = style.replace(/(A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z)/g, "-$1").toLowerCase();
     console.log(sr, style);
@@ -22,8 +24,6 @@ function Dsign() {
       el.style[style] = el.getAttribute(sr);
     });
   }
-  var m = document.body.innerHTML.matchAll(/<!---@\sdsign\s:\s(.+)\s:\s(.+)\s@--->/gm);
-  console.log(m);
 }
 
 Dsign();
