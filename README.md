@@ -13,7 +13,6 @@ HTML CSS Design with Classes and Attributes
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/dlvdls18/Dsign@main/src/dsign.js"></script>
-
 ```
 
 # Usage
