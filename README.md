@@ -63,6 +63,7 @@ Using `classes` with dashes will not work since it's a special character.
 Every properties are `kebab cases`.
 
 ```
+<property>-<value>
 text-align-center
 font-weight-400
 color-green
@@ -73,7 +74,7 @@ color-green
 `Attributes`
 
 ```
-<style>="<value>"
+<property>="<value>"
 color="red"
 font-family="courier"
 background-color="teal"
@@ -90,3 +91,6 @@ color-red
 font-family-courier
 background-color-teal
 ```
+
+
+## Creating 
