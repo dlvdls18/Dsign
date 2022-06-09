@@ -22,6 +22,7 @@ function Dsign() {
       el.style[style] = el.getAttribute(sr);
     });
   }
+  var m = document.body.innerHTML.matchAll(/<!---@\sdsign\s:\s(.+)\s:\s(.+)\s@--->/gm);
 }
 
 Dsign();
