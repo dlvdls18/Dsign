@@ -91,33 +91,15 @@ font-family-courier
 background-color-teal
 ```
 
+## Custom Design
 
-
-## Creating Style
-
-If you have multiple elements that uses the same style, `Creating Style` is for you.
-
+This is an example without `custom design`:
 
 ```html
-<button class="color-white background-color-royalblue border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Action 1</button>
-<button class="color-white background-color-royalblue border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Action 2</button>
-<button class="color-white background-color-royalblue border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Action 3</button>
-<button class="color-white background-color-red border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Danger Action</button>
-<button class="color-white background-color-green border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Success Action</button>
+<p class="color-white text-align-center margin-5px background-red border-radius-3px"
 ```
 
-***
 
-```html
-<!-- Created Styles -->
-<dsign name="btn-action">color-white background-color-green border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px</dsign>
-<dsign name="btn-danger">color-white background-color-red border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px</dsign>
-<dsign name="btn-success">color-white background-color-green border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px</dsign>
-<!-- Buttons -->
-<button data-dsign="btn-action">Action 1</button>
-<button data-dsign="btn-action">Action 2</button>
-<button data-dsign="btn-action">Action 1
-3</button>
-<button data-dsign="btn-danger">Danger Action</button>
-<button data-dsign="btn-success">Success Action</button>
-```
+### Usage
+
+Add a `dsign` tag to declare new custom design
