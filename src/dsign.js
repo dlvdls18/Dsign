@@ -17,7 +17,7 @@ function Dsign() {
       for(var i in el.attributes) {
         if(!isNaN(parseInt(i)) && i != "name") {
           var attr = el.attributes[i];
-          if(attr.name != "name") attrs[attr.name] = attr.value;
+          if(attr.name != "name" || attr.name != "data-ignore" || !el.getAttribute("data-ignore").split(" ").includes(attr.name)) attrs[attr.name] = attr.value;
         }
       }
       dsign[el.getAttribute("name")] =  [1, attrs];
