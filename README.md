@@ -63,7 +63,6 @@ Using `classes` with dashes will not work since it's a special character.
 Every properties are `kebab cases`.
 
 ```
-<property>-<value>
 text-align-center
 font-weight-400
 color-green
@@ -86,11 +85,26 @@ background-color="teal"
 
 
 ```
-<style>-<value>
+<property>-<value>
 color-red
 font-family-courier
 background-color-teal
 ```
 
 
-## Creating 
+
+## Creating Style
+
+If you have multiple elements that uses the same style, `Creating Style` is for you.
+
+
+```html
+<button class="color-white background-color-royalblue border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Action 1</button>
+<button class="color-white background-color-royalblue border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Action 2</button>
+<button class="color-white background-color-royalblue border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Action 3</button>
+<button class="color-white background-color-red border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Danger Action</button>
+<button class="color-white background-color-lime border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Success Action</button>
+```
+
+
+### Usage
