@@ -171,4 +171,11 @@ Set the `dsign` tag's `innerText` to empty string
 <dsign name="my-design"></dsign>
 ```
 
-Add attributes you want to add
+Add attributes you want to apply when using the design.
+
+**NOTE:** 
+
+
+```html
+<dsign name="my-design"></dsign>
+```
