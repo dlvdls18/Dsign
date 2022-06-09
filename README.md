@@ -165,7 +165,7 @@ Set the `dsign` tag's `innerText` to classes (space seperated).
 
 #### Attributes
 
-Set the `dsign` tag's `innerText` to empty string
+Set the `dsign` tag's `innerText` to empty text.
 
 ```html
 <dsign name="my-design"></dsign>
@@ -173,9 +173,18 @@ Set the `dsign` tag's `innerText` to empty string
 
 Add attributes you want to apply when using the design.
 
-**NOTE:** 
+**NOTE:** If the `dsign` tag's `innerText` is not empty, the style will declared as `class`
 
 
 ```html
-<dsign name="my-design"></dsign>
+<dsign name="my-design" color="white" text-align="center" margin="5px" background="red" border-radius="3px"></dsign>
 ```
+
+
+##### Ignoring Attributes
+
+To ignore an attribute, add an argument `data-ignore`.
+
+Set the value to attributes you want to ignore (space seperated).
+
+**NOTE:** Argument `style` is ignored by default
