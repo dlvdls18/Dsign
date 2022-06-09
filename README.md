@@ -193,3 +193,13 @@ Set the value to attributes you want to ignore (space seperated).
 ```html
 <dsign name="my-design" data-hello="Hello, " data-world="World!" color="white" text-align="center" margin="5px" background="red" border-radius="3px" data-ignore="data-hello data-world color"></dsign>
 ```
+
+### Usage
+
+To use the custom style, add the attribute `data-dsign`.
+
+Set the attribute value to the custom design name.
+
+```html
+<p data-dsign="my-design">Hello</p>
+```
