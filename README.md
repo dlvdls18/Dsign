@@ -106,5 +106,10 @@ If you have multiple elements that uses the same style, `Creating Style` is for 
 <button class="color-white background-color-green border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px">Success Action</button>
 ```
 
+***
 
-### Usage
+```html
+<dsign name="btn-action">color-white background-color-green border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px</dsign>
+<dsign name="btn-danger">color-white background-color-red border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px</dsign>
+<dsign name="btn-success">color-white background-color-green border-radius-3px border-color-transparent padding-8px font-size-1rem margin-5px</dsign>
+```
