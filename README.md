@@ -63,9 +63,10 @@ Using `classes` with dashes will not work since it's a special character.
 Every properties are `kebab cases`.
 
 ```
-text-align-center
-font-weight-400
-color-green
+text-align
+font-weight
+color
+background-color
 ```
 
 ***
