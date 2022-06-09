@@ -93,13 +93,82 @@ background-color-teal
 
 ## Custom Design
 
-This is an example without `custom design`:
+**Classes**
+
+This is an example without `custom design` as `classes`:
 
 ```html
-<p class="color-white text-align-center margin-5px background-red border-radius-3px"
+<p class="color-white text-align-center margin-5px background-red border-radius-3px">Hello</p>
+<p class="color-white text-align-center margin-5px background-red border-radius-3px">Hello</p>
+<p class="color-white text-align-center margin-5px background-red border-radius-3px">Hello</p>
+<p class="color-white text-align-center margin-5px background-red border-radius-3px">Hello</p>
+<p class="color-white text-align-center margin-5px background-red border-radius-3px">Hello</p>
+```
+
+After declaring `custom design`:
+
+```html
+<dsign name="my-text">color-white text-align-center margin-5px background-red border-radius-3px</dsign>
+
+<p data-dsign="my-text">Hello</p>
+<p data-dsign="my-text">Hello</p>
+<p data-dsign="my-text">Hello</p>
+<p data-dsign="my-text">Hello</p>
+<p data-dsign="my-text">Hello</p>
+```
+
+***
+
+**Attributes**
+
+This is an example without `custom design` as `attributes`:
+
+```html
+<p color="white" text-align="center" margin="5px" background="red" border-radius="3px">Hello</p>
+<p color="white" text-align="center" margin="5px" background="red" border-radius="3px">Hello</p>
+<p color="white" text-align="center" margin="5px" background="red" border-radius="3px">Hello</p>
+<p color="white" text-align="center" margin="5px" background="red" border-radius="3px">Hello</p>
+<p color="white" text-align="center" margin="5px" background="red" border-radius="3px">Hello</p>
+```
+
+After declaring `custom design`:
+
+```html
+<dsign name="my-text" color="white" text-align="center" margin="5px" background="red" border-radius="3px"></dsign>
+
+<p data-dsign="my-text">Hello</p>
+<p data-dsign="my-text">Hello</p>
+<p data-dsign="my-text">Hello</p>
+<p data-dsign="my-text">Hello</p>
+<p data-dsign="my-text">Hello</p>
 ```
 
 
-### Usage
+### Documentation
 
-Add a `dsign` tag to declare new custom design
+Add a `dsign` tag to declare new custom design.
+
+Add an attribute `name` for the design name.
+
+```html
+<dsign name="my-design"></dsign>
+```
+
+#### Classes
+
+Set the `dsign` tag's `innerText` to classes (space seperated).
+
+```html
+<dsign name="my-design">color-white text-align-center margin-5px background-red border-radius-3px</dsign>
+```
+
+
+#### Attributes
+
+Set the `dsign` tag's `innerText` to empty string
+
+```html
+<dsign name="my-design"></dsign>
+```
+
+Add attributes you want to add
