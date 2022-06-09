@@ -10,7 +10,6 @@ var dsign = {};
 
 function Dsign() {
   document.querySelectorAll("dsign").forEach(function(el) {
-    console.log(el);
     el.style.display = "none";
     if(el.innerText != "") dsign[el.getAttribute("name")] =  [0, el.innerText.split(" ")];
     else {
