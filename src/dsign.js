@@ -23,6 +23,7 @@ function Dsign() {
     });
   }
   var m = document.body.innerHTML.matchAll(/<!---@\sdsign\s:\s(.+)\s:\s(.+)\s@--->/gm);
+  console.log(m);
 }
 
 Dsign();
