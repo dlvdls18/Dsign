@@ -104,7 +104,11 @@ background-color-teal
 
 Comparison using `bootstrap`:
 
-```css
+
+No Custom Styles:
+
+```html
+<style>
 /* I want to create my own form-control without box shadow */
 my-style {
   /* bootstrap form-control */
