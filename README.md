@@ -152,7 +152,7 @@ Dsign({
   "my-style": {
     "class": ["form-control"],
     "attr": {
-      "box-shadow": "none i"
+      "box-shadow": "none ! important"
     }
   }
 });
