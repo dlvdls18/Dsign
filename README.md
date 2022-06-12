@@ -26,7 +26,7 @@ Dsign();
 You can also create `Custom Styles`.
 
 ```js
-Dsign(/* custom styles */);
+Dsign(/* custom stylel */);
 ```
 
 ```html
