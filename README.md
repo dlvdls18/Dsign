@@ -221,3 +221,7 @@ At `attr`, add the key (as argument name) and the value.
 }
 ```
 
+```html
+<!-- result -->
+<myTag class=""></myTag>
+```
