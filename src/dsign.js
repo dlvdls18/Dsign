@@ -10,7 +10,9 @@ function Dsign(conf) {
   document.querySelectorAll("[data-dsign]").forEach(function(el) {
     var s = conf[el.getAttribute("data-dsign")];
     if(!s) return;
-    if(s.
+    if(s.class) {
+      el.
+    }
   });
   for(var style in document.body.style) {
     var sr = style.replace(/(A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z)/g, "-$1").toLowerCase();
