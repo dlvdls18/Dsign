@@ -238,3 +238,7 @@ Add the attribute `data-dsign` and the value is the style name.
 
 
 ```html
+<!-- raw -->
+<p data-dsign="my-style">Hello!</p>
+<!-- result -->
+```
