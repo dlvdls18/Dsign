@@ -98,4 +98,4 @@ background-color-teal
 
 ### What is custom styles?
 
-`Custom styles` are very useful
+`Custom styles` are very useful for designing multiple 
