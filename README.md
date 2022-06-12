@@ -258,6 +258,6 @@ Add the attribute `data-dsign` and the value is the style name.
     }
   });
 </script>
-<!-- No underline since the class  override -->
+<!-- No underline since the classes overrides -->
 <p data-dsign="my-style" class="text-decoration-underline">Hello!</p>
 ```
