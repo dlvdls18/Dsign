@@ -210,4 +210,4 @@ At `class`, add the classes you want to apply.
 ```
 
 
-At `attr`, add 
+At `attr`, add the key (as argument name) and the value.
