@@ -36,6 +36,6 @@ function Dsign(conf) {
   }
 }
 
-if(document.querySelectorAll("dsign").length != 0) console.warn("");
+if(document.querySelectorAll("dsign").length != 0) console.warn("Note that the tag Dsign is deprecated and does ");
 
 Dsign();
