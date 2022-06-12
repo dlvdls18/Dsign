@@ -36,4 +36,6 @@ function Dsign(conf) {
   }
 }
 
+if(document.querySelectorAll("dsign").length != 0) console.warn("");
+
 Dsign();
