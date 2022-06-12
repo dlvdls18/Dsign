@@ -118,7 +118,7 @@ No `Custom Styles`:
 <style>
 
 /* I want to create my own form-control without box shadow */
-my-style {
+.my-style {
   /* bootstrap form-control */
   display: block;
   width: 100%;
@@ -136,7 +136,7 @@ my-style {
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-my-style:focus {
+.my-style:focus {
   color: #212529;
   background-color: #fff;
   border-color: #86b7fe;
