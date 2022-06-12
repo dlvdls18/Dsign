@@ -186,10 +186,10 @@ With the function `Dsign()`, pass 1 argument (object) to declare custom styles.
 ...
 ```
 
-Inside of each styles, add 2 key:
+Inside of each styles, add 2 key (optional):
 
-- `class` - _array string_ (optional)
-- `attr` - _object (key:string, value:string)_ (op)
+- `class` - _array string_
+- `attr` - _object (key:string, value:string)_
 
 
 ```json
