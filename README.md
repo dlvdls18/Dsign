@@ -250,7 +250,12 @@ Add the attribute `data-dsign` and the value is the style name.
 ```html
 <script>
   Dsign({
-    
+    "my-style": {
+      "class": ["form-control"],
+      "attr": {
+        "box-shadow": "none !important"
+      }
+    }
   });
 </script>
 <p data-dsign="my-style" class="text-decoration-underline">Hello!</p>
