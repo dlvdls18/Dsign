@@ -10,10 +10,9 @@ function Dsign(conf) {
   conf = conf || {};
   document.querySelectorAll("[data-dsign]").forEach(function(el) {
     var s = conf[el.getAttribute("data-dsign")];
-    console.log(s);
     if(!s) return;
-    if(s.class) {
-      s.class.forEach(function(c) {
+    if(s["class"]) {
+      s["class"].forEach(function(c) {
         if(el.classList.contains(c)) el.classList.remove(c);
         el.classList.add(c);
       });
