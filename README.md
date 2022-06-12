@@ -160,3 +160,8 @@ Dsign({
 
 <input data-dsign="my-style" placeholder="Click Me!">
 ```
+
+
+### Declaring custom styles
+
+With 
