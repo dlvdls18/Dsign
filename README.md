@@ -144,3 +144,9 @@ my-style:focus {
 
 
 With `Custom Styles`:
+
+```html
+<!-- No <style> or <link>, just <script> --
+
+<input class="my-style" placeholder="Click Me!">
+```
