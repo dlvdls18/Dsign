@@ -170,4 +170,4 @@ Dsign({
 
 ### Declaring custom styles
 
-With the 
+With the function `Dsiyn`
