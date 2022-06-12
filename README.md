@@ -139,7 +139,7 @@ my-style:focus {
 
 </style>
 
-<input class="my-style" value="">
+<input class="my-style" placeholder="Click Me!">
 ```
 
 
