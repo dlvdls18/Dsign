@@ -173,7 +173,7 @@ Dsign({
 With the function `Dsign()`, pass 1 argument (object) to declare custom styles.
 
 
-```json
+```js
 "my-style": {
   
 },
@@ -183,7 +183,7 @@ With the function `Dsign()`, pass 1 argument (object) to declare custom styles.
 "my-style3": {
   
 }
-...
+//...
 ```
 
 Inside of each styles, add 2 key (optional):
