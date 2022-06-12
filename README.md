@@ -141,8 +141,4 @@ my-style:focus {
 ```
 
 
-Example without `custom styles`:
-
-```html
-<p class="color-red font-size-2rem background-color-black border-radius-3px">Hello</p>
-```
+With `Custom Styles`:
