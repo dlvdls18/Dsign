@@ -212,7 +212,7 @@ At `class`, add the classes you want to apply.
 
 At `attr`, add the key (as argument name) and the value.
 
-**NOTE:** It is recommended to use `JSON` n
+**NOTE:** It is recommended to use `JSON` incase the style name contains spaces and special characters 
 
 ```json
 "my-style": {
