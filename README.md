@@ -241,4 +241,5 @@ Add the attribute `data-dsign` and the value is the style name.
 <!-- raw -->
 <p data-dsign="my-style">Hello!</p>
 <!-- result -->
+<p data-dsign="my-style" >Hello!</p>
 ```
