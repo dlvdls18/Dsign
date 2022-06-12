@@ -23,6 +23,12 @@ Call the function `Dsign` to update the style of classes and attributes. (called
 Dsign();
 ```
 
+You can also create `Custom Styles`.
+
+```js
+Dsign(/*custom style*/);
+```
+
 ```html
 <p color="red" id="myEl">Hello</p>
 <script>
