@@ -227,7 +227,7 @@ At `attr`, add the key (as argument name) and the value.
 _Result:_
 
 ```txt
-class="form-control box-shadow="none !important"
+class="form-control" box-shadow="none !important"
 ```
 
 
@@ -241,5 +241,5 @@ Add the attribute `data-dsign` and the value is the style name.
 <!-- raw -->
 <p data-dsign="my-style">Hello!</p>
 <!-- result -->
-<p data-dsign="my-style" class="form-control box-shadow="none !important">Hello!</p>
+<p data-dsign="my-style" class="form-control" box-shadow="none !important">Hello!</p>
 ```
