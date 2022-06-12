@@ -229,3 +229,12 @@ _Result:_
 ```txt
 class="form-control box-shadow="none !important"
 ```
+
+
+
+### Using Custom Styles
+
+Add the attribute `data-dsign` and the value is the style name.
+
+
+```html
