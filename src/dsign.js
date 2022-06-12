@@ -13,7 +13,8 @@ function Dsign(conf) {
     if(!s) return;
     if(s.class) {
       s.class.forEach(function(c) {
-        if(el.classList.contains(
+        if(el.classList.contains(c)) el.classList.remove(c);
+        el.classList.add(c);
       });
     }
     if(s.attr) {
