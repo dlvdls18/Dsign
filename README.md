@@ -93,4 +93,4 @@ background-color-teal
 ```
 
 
-## Declaring custom styles
+## Custom Styles
