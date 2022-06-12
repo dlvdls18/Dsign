@@ -248,6 +248,10 @@ Add the attribute `data-dsign` and the value is the style name.
 **NOTE:** The `class` key overrides all classes, you might need to use attribute.
 
 ```html
-
+<script>
+  Dsign({
+    
+  });
+</script>
 <p data-dsign="my-style" class="text-decoration-underline">Hello!</p>
 ```
