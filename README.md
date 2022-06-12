@@ -106,6 +106,7 @@ Comparison using `bootstrap`:
 
 ```css
 my-style {
+  /* bootstrap form-control */
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
@@ -122,7 +123,13 @@ my-style {
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-my-style:focus 
+my-style:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
 ```
 
 
