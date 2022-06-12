@@ -11,13 +11,13 @@ function Dsign(conf) {
   document.querySelectorAll("[data-dsign]").forEach(function(el) {
     var s = conf[el.getAttribute("data-dsign")];
     if(s == null) return;
-    if(s["class"]) {
+    if(s["class"] != null) {
       s["class"].forEach(function(c) {
         if(el.classList.contains(c)) el.classList.remove(c);
         el.classList.add(c);
       });
     }
-    if(s.attr) {
+    if(s["attr"] != null) {
       for(var key in s["attr"]) {
         var attr = s["attr"][key];
         el.setAttribute(key, attr);
