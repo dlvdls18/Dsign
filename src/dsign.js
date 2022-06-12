@@ -7,7 +7,7 @@
  */
 
 function Dsign(conf) {
-  
+  document.querySelectorAll("[data-dsign]").forEach
   for(var style in document.body.style) {
     var sr = style.replace(/(A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z)/g, "-$1").toLowerCase();
     document.querySelectorAll("*").forEach(function(el) {
