@@ -100,7 +100,11 @@ background-color-teal
 
 `Custom styles` are very useful for designing multiple tags.
 
-`Custom styles` are like `stylesheet declarations` but it uses classes and attributes
+`Custom styles` are like `stylesheet declarations` but it uses classes and attributes.
+
+Comparison using `bootstrap`:
+
+``
 
 
 Example without `custom styles`:
