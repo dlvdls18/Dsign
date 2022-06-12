@@ -176,5 +176,14 @@ With the function `Dsign()`, pass 1 argument (object) to declare custom styles.
 ```json
 "my-style": {
   
+},
+"my-style2": {
+  
+},
+"my-style3": {
+  
 }
+...
 ```
+
+Inside of each styles,
