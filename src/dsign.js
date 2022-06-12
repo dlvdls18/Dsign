@@ -12,15 +12,15 @@ function Dsign(conf) {
     console.log(el);
     var s = conf[el.getAttribute("data-dsign")];
     if(s == null) return;
-    if(s["class"] != null) {
-      s["class"].forEach(function(c) {
+    if(s.cls != null) {
+      s.cls.forEach(function(c) {
         if(el.classList.contains(c)) el.classList.remove(c);
         el.classList.add(c);
       });
     }
-    if(s["attr"] != null) {
-      for(var key in s["attr"]) {
-        var attr = s["attr"][key];
+    if(s.attr != null) {
+      for(var key in s.attr) {
+        var attr = s.attr[key];
         el.setAttribute(key, attr);
       }
     }
