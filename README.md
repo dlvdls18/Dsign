@@ -109,6 +109,7 @@ No Custom Styles:
 
 ```html
 <style>
+
 /* I want to create my own form-control without box shadow */
 my-style {
   /* bootstrap form-control */
@@ -135,6 +136,8 @@ my-style:focus {
   outline: 0;
   /*box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);*/
 }
+
+</style>
 ```
 
 
