@@ -7,6 +7,7 @@
  */
 
 function Dsign(conf) {
+  conf = conf || {};
   document.querySelectorAll("[data-dsign]").forEach(function(el) {
     var s = conf[el.getAttribute("data-dsign")];
     if(!s) return;
