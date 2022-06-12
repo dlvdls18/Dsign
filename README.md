@@ -211,3 +211,13 @@ At `class`, add the classes you want to apply.
 
 
 At `attr`, add the key (as argument name) and the value.
+
+```json
+"my-style": {
+  "class": ["form-control"],
+  "attr": {
+    "box-shadow": "none !important"
+  }
+}
+```
+
