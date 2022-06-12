@@ -212,6 +212,8 @@ At `class`, add the classes you want to apply.
 
 At `attr`, add the key (as argument name) and the value.
 
+**NOTE:** It is recommended to use `JSON` n
+
 ```json
 "my-style": {
   "class": ["form-control"],
