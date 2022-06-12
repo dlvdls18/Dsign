@@ -204,7 +204,10 @@ At `class`, add the classes you want to apply.
 
 ```json
 "my-style": {
-  "class": [],
+  "class": ["form-control"],
   "attr": {}
 }
 ```
+
+
+At `attr`, add 
