@@ -98,4 +98,11 @@ background-color-teal
 
 ### What is custom styles?
 
-`Custom styles` are very useful for designing multiple 
+`Custom styles` are very useful for designing multiple tags
+
+
+Example without `custom styles`:
+
+```html
+<p class="color-red font-size-2rem background-color-teal"
+```
