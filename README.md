@@ -129,7 +129,7 @@ my-style:focus {
   background-color: #fff;
   border-color: #86b7fe;
   outline: 0;
- *box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  /*box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);*/
 }
 ```
 
