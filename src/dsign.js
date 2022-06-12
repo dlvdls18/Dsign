@@ -13,7 +13,7 @@ function Dsign(conf) {
     if(!s) return;
     if(s.class) {
       s.class.forEach(function(c) {
-        if(el.classList
+        if(el.classList.contains(
       });
     }
     if(s.attr) {
