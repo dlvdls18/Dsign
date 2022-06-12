@@ -12,7 +12,9 @@ function Dsign(conf) {
     var s = conf[el.getAttribute("data-dsign")];
     if(!s) return;
     if(s.class) {
-      el.className 
+      s.class.forEach(function(c) {
+        if(el.classList
+      });
     }
     if(s.attr) {
       for(var key in s.attr) {
