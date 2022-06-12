@@ -198,3 +198,13 @@ Inside of each styles, add 2 key (optional):
   "attr": {}
 }
 ```
+
+
+At `class`, add the classes you want to apply.
+
+```json
+"my-style": {
+  "class": [],
+  "attr": {}
+}
+```
