@@ -170,4 +170,11 @@ Dsign({
 
 ### Declaring custom styles
 
-With the function `Dsiyn`
+With the function `Dsign()`, pass 1 argument (object) to declare custom styles.
+
+
+```json
+"my-style": {
+  
+}
+```
