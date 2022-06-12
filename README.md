@@ -276,5 +276,5 @@ Solution: Use attribute instead
     }
   });
 </script>
-<p data-dsign="my-style" class="text-decoration="underline">Hello!</p>
+<p data-dsign="my-style" text-decoration="underline">Hello!</p>
 ```
