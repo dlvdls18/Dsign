@@ -243,3 +243,6 @@ Add the attribute `data-dsign` and the value is the style name.
 <!-- result -->
 <p data-dsign="my-style" class="form-control" box-shadow="none !important">Hello!</p>
 ```
+
+
+**NOTE:** The `class` key overrides all classes, you might need to use 
