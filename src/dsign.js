@@ -14,7 +14,10 @@ function Dsign(conf) {
       el.className = s.class.join(" ");
     }
     if(s.attr) {
-      for(var a
+      for(var key in s.attr) {
+        var attr = s.attr[key];
+        el.setAttribute(key, attr)!
+      }
     }
   });
   for(var style in document.body.style) {
