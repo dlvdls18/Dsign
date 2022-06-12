@@ -16,7 +16,7 @@ function Dsign(conf) {
     if(s.attr) {
       for(var key in s.attr) {
         var attr = s.attr[key];
-        el.setAttribute(key, attr)!
+        el.setAttribute(key, attr);
       }
     }
   });
