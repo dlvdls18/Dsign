@@ -188,12 +188,13 @@ With the function `Dsign()`, pass 1 argument (object) to declare custom styles.
 
 Inside of each styles, add 2 key:
 
-- class - array string
-- attr - object (key: string, value:)
+- `class` - _array string_ (optional)
+- `attr` - _object (key:string, value:string)_ (op)
 
 
 ```json
 "my-style": {
-  "class": []
+  "class": [],
+  "attr": {}
 }
 ```
