@@ -31,6 +31,7 @@ Dsign(/* custom styles */);
 
 ```html
 <p color="red" id="myEl">Hello</p>
+<script src="path/to/dsign.js"></script>
 <script>
 myEl.setAttribute("color", "orange");
 // Color doesn't change
