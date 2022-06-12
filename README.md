@@ -26,7 +26,7 @@ Dsign();
 You can also create `Custom Styles`.
 
 ```js
-Dsign(/* custom stylel */);
+Dsign(/* custom styles */);
 ```
 
 ```html
@@ -170,4 +170,4 @@ Dsign({
 
 ### Declaring custom styles
 
-With 
+With the 
