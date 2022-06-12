@@ -146,7 +146,14 @@ my-style:focus {
 With `Custom Styles`:
 
 ```html
-<!-- No <style> or <link>, just <script> --
+<!-- No <style> or <link>, just <script> -->
+<script>
+Dsign({
+  "my-style": {
+    class
+  }
+});
+</script>
 
 <input class="my-style" placeholder="Click Me!">
 ```
