@@ -150,7 +150,10 @@ With `Custom Styles`:
 <script>
 Dsign({
   "my-style": {
-    class
+    "class": ["form-control"],
+    "attr": {
+      "box-shadow": "none i"
+    }
   }
 });
 </script>
