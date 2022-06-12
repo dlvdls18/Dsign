@@ -104,5 +104,5 @@ background-color-teal
 Example without `custom styles`:
 
 ```html
-<p class="color-red font-size-2rem background-color-teal"
+<p class="color-red font-size-2rem background-color-black border-radius-3px">Hello</p>
 ```
