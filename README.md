@@ -100,7 +100,7 @@ background-color-teal
 
 `Custom styles` are very useful for designing multiple tags.
 
-`Custom styles` are like 
+`Custom styles` are like `stylesheet rule`
 
 
 Example without `custom styles`:
