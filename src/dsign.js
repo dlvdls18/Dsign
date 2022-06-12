@@ -41,6 +41,4 @@ function Dsign(conf) {
   }
 }
 
-//if(document.querySelectorAll("dsign").length != 0) console.warn("Note that the tag Dsign is deprecated and does nothing in this version, view README.md for more information.");
-
 //Dsign();
