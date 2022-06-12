@@ -105,7 +105,7 @@ background-color-teal
 Comparison using `bootstrap`:
 
 
-No Custom Styles:
+No `Custom Styles`:
 
 ```html
 <style>
@@ -138,6 +138,8 @@ my-style:focus {
 }
 
 </style>
+
+<input class="my-style" value="">
 ```
 
 
