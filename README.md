@@ -158,5 +158,5 @@ Dsign({
 });
 </script>
 
-<input class="my-style" placeholder="Click Me!">
+<input data-dsign="my-style" placeholder="Click Me!">
 ```
