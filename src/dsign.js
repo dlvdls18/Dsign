@@ -12,7 +12,7 @@ function Dsign(conf) {
     var s = conf[el.getAttribute("data-dsign")];
     if(s == null) return;
     if(s["class"] != null) {
-      s.cls.forEach(function(c) {
+      s["class"].forEach(function(c) {
         if(el.classList.contains(c)) el.classList.remove(c);
         el.classList.add(c);
       });
